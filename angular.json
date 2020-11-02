@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "what-to-eat"
+    }
+  },
+  "defaultProject": "what-to-eat",
+  "cli": {
+    "analytics": "a5785279-51a8-47fc-86dc-4098e687065f"
+  }
 }
