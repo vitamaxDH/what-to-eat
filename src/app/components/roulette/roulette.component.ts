@@ -136,7 +136,7 @@ export class RouletteComponent implements OnInit {
     this.ctx.restore();
   }
 
-  easeOut(t, b, c, d): number {
+  easeOut(t: number, b: number, c: number, d: number): number {
     const ts = (t /= d) * t;
     const tc = ts * t;
     return b + c * (tc + -3 * ts + 3 * t);
