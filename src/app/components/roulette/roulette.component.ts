@@ -50,6 +50,9 @@ export class RouletteComponent implements OnInit {
     return this.RGB2Color(red, green, blue);
   }
 
+  /**
+   * trying to solve this problem...
+   */
   drawRouletteWheel(): void {
     const canvas: any = this.canvasElement.nativeElement;
     if (canvas.getContext) {
