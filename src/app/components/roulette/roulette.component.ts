@@ -100,7 +100,7 @@ export class RouletteComponent implements OnInit {
       this.ctx.lineTo(250 + 4, 250 - (outsideRadius + 5));
       this.ctx.lineTo(250 + 4, 250 - (outsideRadius - 5));
       this.ctx.lineTo(250 + 9, 250 - (outsideRadius - 5));
-      this.ctx.lineTo(250    , 250 - (outsideRadius - 13));
+      this.ctx.lineTo(250 + 0, 250 - (outsideRadius - 13));
       this.ctx.lineTo(250 - 9, 250 - (outsideRadius - 5));
       this.ctx.lineTo(250 - 4, 250 - (outsideRadius - 5));
       this.ctx.lineTo(250 - 4, 250 - (outsideRadius + 5));
